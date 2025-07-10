@@ -12,3 +12,8 @@ else:
 text=input("enter a string")
 fixed_text=text.replace(" "," ")
 print("fixed string:",fixed_text) 
+
+#write a program to format the following letters using escape sequence characters
+letter = "Dear students, this python course is going well. Thanks!"
+letter = "Dear students,\n\tThis Python course is going well.\nThanks!"
+print(letter)
